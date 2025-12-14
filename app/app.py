@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # Load model + feature columns
-model = joblib.load(r"C:\Users\Rao\OneDrive\Desktop\CUSTOMER CHURN PROJECT\models\xgb_churn_model.pkl")
-feature_columns = joblib.load(r"C:\Users\Rao\OneDrive\Desktop\CUSTOMER CHURN PROJECT\models\feature_columns.pkl")
+model = joblib.load("models\xgb_churn_model.pkl")
+feature_columns = joblib.load("models\feature_columns.pkl")
 
 st.title("Customer Churn Prediction App")
 
